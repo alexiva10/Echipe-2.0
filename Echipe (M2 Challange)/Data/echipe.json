@@ -1,0 +1,29 @@
+[ 
+  { "name":"Real Madrid",
+    "image": "Real Madrid",
+    "trofeeUCL": 14,
+    "jucatoriTop": [
+        "Benzema",
+        "Modric",
+        "Hazard"
+    ]
+  },
+  { "name":"Bayern Munchen",
+      "image": "Bayern Munchen",
+      "trofeeUCL": 5,
+      "jucatoriTop": [
+          "Mane",
+          "Kimmich",
+          "Coman"
+      ]
+  },
+  { "name":"Arsenal",
+      "image": "Arsenal",
+      "trofeeUCL": 0,
+      "jucatoriTop": [
+          "Jesus",
+          "Odegaard",
+          "Saka"
+      ]
+  }
+]

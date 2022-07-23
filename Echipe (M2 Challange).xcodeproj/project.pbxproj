@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9EB571288AB5FF002229A6 /* Echipe__M2_Challange_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */; };
+		AD9EB573288AB5FF002229A6 /* EchipeLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB572288AB5FF002229A6 /* EchipeLista.swift */; };
+		AD9EB575288AB608002229A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB574288AB608002229A6 /* Assets.xcassets */; };
+		AD9EB578288AB608002229A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB577288AB608002229A6 /* Preview Assets.xcassets */; };
+		AD9EB582288AB60A002229A6 /* Echipe__M2_Challange_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB581288AB60A002229A6 /* Echipe__M2_Challange_Tests.swift */; };
+		AD9EB58C288AB60A002229A6 /* Echipe__M2_Challange_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB58B288AB60A002229A6 /* Echipe__M2_Challange_UITests.swift */; };
+		AD9EB58E288AB60A002229A6 /* Echipe__M2_Challange_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB58D288AB60A002229A6 /* Echipe__M2_Challange_UITestsLaunchTests.swift */; };
+		AD9EB5A0288AB9DB002229A6 /* echipe.json in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB59F288AB9DB002229A6 /* echipe.json */; };
+		AD9EB5A2288ABA4F002229A6 /* Echipa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A1288ABA4F002229A6 /* Echipa.swift */; };
+		AD9EB5A4288ABACB002229A6 /* EchipaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A3288ABACB002229A6 /* EchipaModel.swift */; };
+		AD9EB5A6288ABB0C002229A6 /* Data Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A5288ABB0C002229A6 /* Data Service.swift */; };
+		AD9EB5A8288AC0F1002229A6 /* EchipaDetalii.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD9EB57E288AB60A002229A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9EB565288AB5FE002229A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9EB56C288AB5FF002229A6;
+			remoteInfo = "Echipe (M2 Challange)";
+		};
+		AD9EB588288AB60A002229A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9EB565288AB5FE002229A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9EB56C288AB5FF002229A6;
+			remoteInfo = "Echipe (M2 Challange)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Echipe (M2 Challange).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_App.swift; sourceTree = "<group>"; };
+		AD9EB572288AB5FF002229A6 /* EchipeLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipeLista.swift; sourceTree = "<group>"; };
+		AD9EB574288AB608002229A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD9EB577288AB608002229A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD9EB57D288AB60A002229A6 /* Echipe (M2 Challange)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Echipe (M2 Challange)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB581288AB60A002229A6 /* Echipe__M2_Challange_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_Tests.swift; sourceTree = "<group>"; };
+		AD9EB587288AB60A002229A6 /* Echipe (M2 Challange)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Echipe (M2 Challange)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB58B288AB60A002229A6 /* Echipe__M2_Challange_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_UITests.swift; sourceTree = "<group>"; };
+		AD9EB58D288AB60A002229A6 /* Echipe__M2_Challange_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD9EB59F288AB9DB002229A6 /* echipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = echipe.json; sourceTree = "<group>"; };
+		AD9EB5A1288ABA4F002229A6 /* Echipa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipa.swift; sourceTree = "<group>"; };
+		AD9EB5A3288ABACB002229A6 /* EchipaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipaModel.swift; sourceTree = "<group>"; };
+		AD9EB5A5288ABB0C002229A6 /* Data Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Service.swift"; sourceTree = "<group>"; };
+		AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipaDetalii.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9EB56A288AB5FF002229A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB57A288AB60A002229A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB584288AB60A002229A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9EB564288AB5FE002229A6 = {
+			isa = PBXGroup;
+			children = (
+				AD9EB56F288AB5FF002229A6 /* Echipe (M2 Challange) */,
+				AD9EB580288AB60A002229A6 /* Echipe (M2 Challange)Tests */,
+				AD9EB58A288AB60A002229A6 /* Echipe (M2 Challange)UITests */,
+				AD9EB56E288AB5FF002229A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9EB56E288AB5FF002229A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */,
+				AD9EB57D288AB60A002229A6 /* Echipe (M2 Challange)Tests.xctest */,
+				AD9EB587288AB60A002229A6 /* Echipe (M2 Challange)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9EB56F288AB5FF002229A6 /* Echipe (M2 Challange) */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */,
+				AD9EB59E288AB6B4002229A6 /* Services */,
+				AD9EB59D288AB6A7002229A6 /* Data */,
+				AD9EB59C288AB69E002229A6 /* ViewModels */,
+				AD9EB59B288AB689002229A6 /* Model */,
+				AD9EB59A288AB681002229A6 /* Views */,
+				AD9EB574288AB608002229A6 /* Assets.xcassets */,
+				AD9EB576288AB608002229A6 /* Preview Content */,
+			);
+			path = "Echipe (M2 Challange)";
+			sourceTree = "<group>";
+		};
+		AD9EB576288AB608002229A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB577288AB608002229A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD9EB580288AB60A002229A6 /* Echipe (M2 Challange)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB581288AB60A002229A6 /* Echipe__M2_Challange_Tests.swift */,
+			);
+			path = "Echipe (M2 Challange)Tests";
+			sourceTree = "<group>";
+		};
+		AD9EB58A288AB60A002229A6 /* Echipe (M2 Challange)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB58B288AB60A002229A6 /* Echipe__M2_Challange_UITests.swift */,
+				AD9EB58D288AB60A002229A6 /* Echipe__M2_Challange_UITestsLaunchTests.swift */,
+			);
+			path = "Echipe (M2 Challange)UITests";
+			sourceTree = "<group>";
+		};
+		AD9EB59A288AB681002229A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB572288AB5FF002229A6 /* EchipeLista.swift */,
+				AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD9EB59B288AB689002229A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB5A1288ABA4F002229A6 /* Echipa.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD9EB59C288AB69E002229A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB5A3288ABACB002229A6 /* EchipaModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD9EB59D288AB6A7002229A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB59F288AB9DB002229A6 /* echipe.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD9EB59E288AB6B4002229A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB5A5288ABB0C002229A6 /* Data Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9EB56C288AB5FF002229A6 /* Echipe (M2 Challange) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB591288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)" */;
+			buildPhases = (
+				AD9EB569288AB5FF002229A6 /* Sources */,
+				AD9EB56A288AB5FF002229A6 /* Frameworks */,
+				AD9EB56B288AB5FF002229A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Echipe (M2 Challange)";
+			productName = "Echipe (M2 Challange)";
+			productReference = AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD9EB57C288AB60A002229A6 /* Echipe (M2 Challange)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB594288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)Tests" */;
+			buildPhases = (
+				AD9EB579288AB60A002229A6 /* Sources */,
+				AD9EB57A288AB60A002229A6 /* Frameworks */,
+				AD9EB57B288AB60A002229A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9EB57F288AB60A002229A6 /* PBXTargetDependency */,
+			);
+			name = "Echipe (M2 Challange)Tests";
+			productName = "Echipe (M2 Challange)Tests";
+			productReference = AD9EB57D288AB60A002229A6 /* Echipe (M2 Challange)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD9EB586288AB60A002229A6 /* Echipe (M2 Challange)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB597288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)UITests" */;
+			buildPhases = (
+				AD9EB583288AB60A002229A6 /* Sources */,
+				AD9EB584288AB60A002229A6 /* Frameworks */,
+				AD9EB585288AB60A002229A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9EB589288AB60A002229A6 /* PBXTargetDependency */,
+			);
+			name = "Echipe (M2 Challange)UITests";
+			productName = "Echipe (M2 Challange)UITests";
+			productReference = AD9EB587288AB60A002229A6 /* Echipe (M2 Challange)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9EB565288AB5FE002229A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD9EB56C288AB5FF002229A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AD9EB57C288AB60A002229A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AD9EB56C288AB5FF002229A6;
+					};
+					AD9EB586288AB60A002229A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AD9EB56C288AB5FF002229A6;
+					};
+				};
+			};
+			buildConfigurationList = AD9EB568288AB5FE002229A6 /* Build configuration list for PBXProject "Echipe (M2 Challange)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9EB564288AB5FE002229A6;
+			productRefGroup = AD9EB56E288AB5FF002229A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9EB56C288AB5FF002229A6 /* Echipe (M2 Challange) */,
+				AD9EB57C288AB60A002229A6 /* Echipe (M2 Challange)Tests */,
+				AD9EB586288AB60A002229A6 /* Echipe (M2 Challange)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9EB56B288AB5FF002229A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB5A0288AB9DB002229A6 /* echipe.json in Resources */,
+				AD9EB578288AB608002229A6 /* Preview Assets.xcassets in Resources */,
+				AD9EB575288AB608002229A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB57B288AB60A002229A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB585288AB60A002229A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9EB569288AB5FF002229A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB573288AB5FF002229A6 /* EchipeLista.swift in Sources */,
+				AD9EB571288AB5FF002229A6 /* Echipe__M2_Challange_App.swift in Sources */,
+				AD9EB5A8288AC0F1002229A6 /* EchipaDetalii.swift in Sources */,
+				AD9EB5A2288ABA4F002229A6 /* Echipa.swift in Sources */,
+				AD9EB5A6288ABB0C002229A6 /* Data Service.swift in Sources */,
+				AD9EB5A4288ABACB002229A6 /* EchipaModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB579288AB60A002229A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB582288AB60A002229A6 /* Echipe__M2_Challange_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB583288AB60A002229A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB58C288AB60A002229A6 /* Echipe__M2_Challange_UITests.swift in Sources */,
+				AD9EB58E288AB60A002229A6 /* Echipe__M2_Challange_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD9EB57F288AB60A002229A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9EB56C288AB5FF002229A6 /* Echipe (M2 Challange) */;
+			targetProxy = AD9EB57E288AB60A002229A6 /* PBXContainerItemProxy */;
+		};
+		AD9EB589288AB60A002229A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9EB56C288AB5FF002229A6 /* Echipe (M2 Challange) */;
+			targetProxy = AD9EB588288AB60A002229A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD9EB58F288AB60A002229A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD9EB590288AB60A002229A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD9EB592288AB60A002229A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Echipe (M2 Challange)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9EB593288AB60A002229A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Echipe (M2 Challange)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD9EB595288AB60A002229A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Echipe (M2 Challange).app/Echipe (M2 Challange)";
+			};
+			name = Debug;
+		};
+		AD9EB596288AB60A002229A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Echipe (M2 Challange).app/Echipe (M2 Challange)";
+			};
+			name = Release;
+		};
+		AD9EB598288AB60A002229A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Echipe (M2 Challange)";
+			};
+			name = Debug;
+		};
+		AD9EB599288AB60A002229A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Echipe (M2 Challange)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9EB568288AB5FE002229A6 /* Build configuration list for PBXProject "Echipe (M2 Challange)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB58F288AB60A002229A6 /* Debug */,
+				AD9EB590288AB60A002229A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB591288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB592288AB60A002229A6 /* Debug */,
+				AD9EB593288AB60A002229A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB594288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB595288AB60A002229A6 /* Debug */,
+				AD9EB596288AB60A002229A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB597288AB60A002229A6 /* Build configuration list for PBXNativeTarget "Echipe (M2 Challange)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB598288AB60A002229A6 /* Debug */,
+				AD9EB599288AB60A002229A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9EB565288AB5FE002229A6 /* Project object */;
+}
