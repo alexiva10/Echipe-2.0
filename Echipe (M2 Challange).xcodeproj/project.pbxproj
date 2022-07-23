@@ -19,6 +19,7 @@
 		AD9EB5A4288ABACB002229A6 /* EchipaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A3288ABACB002229A6 /* EchipaModel.swift */; };
 		AD9EB5A6288ABB0C002229A6 /* Data Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A5288ABB0C002229A6 /* Data Service.swift */; };
 		AD9EB5A8288AC0F1002229A6 /* EchipaDetalii.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */; };
+		AD9EB5AA288C0CD3002229A6 /* EchipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB5A9288C0CD0002229A6 /* EchipeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Echipe (M2 Challange).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB56D288AB5FF002229A6 /* Echipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Echipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_App.swift; sourceTree = "<group>"; };
 		AD9EB572288AB5FF002229A6 /* EchipeLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipeLista.swift; sourceTree = "<group>"; };
 		AD9EB574288AB608002229A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		AD9EB5A3288ABACB002229A6 /* EchipaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipaModel.swift; sourceTree = "<group>"; };
 		AD9EB5A5288ABB0C002229A6 /* Data Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Service.swift"; sourceTree = "<group>"; };
 		AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipaDetalii.swift; sourceTree = "<group>"; };
+		AD9EB5A9288C0CD0002229A6 /* EchipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 		AD9EB56E288AB5FF002229A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */,
+				AD9EB56D288AB5FF002229A6 /* Echipe.app */,
 				AD9EB57D288AB60A002229A6 /* Echipe (M2 Challange)Tests.xctest */,
 				AD9EB587288AB60A002229A6 /* Echipe (M2 Challange)UITests.xctest */,
 			);
@@ -146,6 +148,7 @@
 			children = (
 				AD9EB572288AB5FF002229A6 /* EchipeLista.swift */,
 				AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */,
+				AD9EB5A9288C0CD0002229A6 /* EchipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,7 +202,7 @@
 			);
 			name = "Echipe (M2 Challange)";
 			productName = "Echipe (M2 Challange)";
-			productReference = AD9EB56D288AB5FF002229A6 /* Echipe (M2 Challange).app */;
+			productReference = AD9EB56D288AB5FF002229A6 /* Echipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AD9EB57C288AB60A002229A6 /* Echipe (M2 Challange)Tests */ = {
@@ -318,6 +321,7 @@
 				AD9EB5A8288AC0F1002229A6 /* EchipaDetalii.swift in Sources */,
 				AD9EB5A2288ABA4F002229A6 /* Echipa.swift in Sources */,
 				AD9EB5A6288ABB0C002229A6 /* Data Service.swift in Sources */,
+				AD9EB5AA288C0CD3002229A6 /* EchipeTabView.swift in Sources */,
 				AD9EB5A4288ABACB002229A6 /* EchipaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,7 +496,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Echipe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,7 +524,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "k.Echipe--M2-Challange-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Echipe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
