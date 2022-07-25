@@ -13,4 +13,11 @@ class Echipa:Identifiable, Decodable  {
     var image:String
     var trofeeUCL:Int
     var jucatoriTop:[String]
+    var istorie:[Istorie]
+}
+
+class Istorie: Identifiable, Decodable {
+    var id:UUID?
+    var titlu:String
+    var descriere:String
 }

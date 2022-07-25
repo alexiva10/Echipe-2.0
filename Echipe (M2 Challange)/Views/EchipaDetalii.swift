@@ -25,8 +25,7 @@ struct EchipaDetalii: View {
                         Text("# " + j).padding([.bottom,.top], 1)
                     }
                 }.padding(.horizontal)
-                Spacer()
-                
+                Spacer()                
             }
         }.navigationTitle(echipa.name)
     }

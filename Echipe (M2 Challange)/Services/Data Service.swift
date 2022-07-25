@@ -29,6 +29,10 @@ class DataService {
                 
                 for r in echipeData {
                     r.id = UUID()
+                    
+                    for i in r.istorie {
+                        i.id = UUID()
+                    }
                 }
                 
                 return echipeData
