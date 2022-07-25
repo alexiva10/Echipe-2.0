@@ -25,6 +25,10 @@ struct EchipaDetalii: View {
                         Text("# " + j).padding([.bottom,.top], 1)
                     }
                 }.padding(.horizontal)
+                Spacer()
+                ForEach (echipa.istorie) { i in
+                    Text(i.titlu)
+                }
                 Spacer()                
             }
         }.navigationTitle(echipa.name)
