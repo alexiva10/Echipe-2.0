@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EchipeLista: View {
     
-    @ObservedObject var model = EchipaModel()
+    @EnvironmentObject var model:EchipaModel
     
     var body: some View {
         

@@ -11,7 +11,7 @@ struct EchipeTabView: View {
     var body: some View {
         
         TabView {
-            Text("Vedem mai tarziu")
+            EchipeFeatured()
                 .tabItem {
                     VStack {
                         Image(systemName: "star")
@@ -26,6 +26,7 @@ struct EchipeTabView: View {
                     }
                 }
         }
+        .environmentObject(EchipaModel())
     }
 }
 

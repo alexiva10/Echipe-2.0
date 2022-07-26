@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD8FFD522890762E00E56758 /* EchipeFeatured.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8FFD512890762C00E56758 /* EchipeFeatured.swift */; };
 		AD9EB571288AB5FF002229A6 /* Echipe__M2_Challange_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */; };
 		AD9EB573288AB5FF002229A6 /* EchipeLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB572288AB5FF002229A6 /* EchipeLista.swift */; };
 		AD9EB575288AB608002229A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB574288AB608002229A6 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD8FFD512890762C00E56758 /* EchipeFeatured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipeFeatured.swift; sourceTree = "<group>"; };
 		AD9EB56D288AB5FF002229A6 /* Echipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Echipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9EB570288AB5FF002229A6 /* Echipe__M2_Challange_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Echipe__M2_Challange_App.swift; sourceTree = "<group>"; };
 		AD9EB572288AB5FF002229A6 /* EchipeLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchipeLista.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				AD9EB572288AB5FF002229A6 /* EchipeLista.swift */,
 				AD9EB5A7288AC0F0002229A6 /* EchipaDetalii.swift */,
 				AD9EB5A9288C0CD0002229A6 /* EchipeTabView.swift */,
+				AD8FFD512890762C00E56758 /* EchipeFeatured.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				AD9EB5A8288AC0F1002229A6 /* EchipaDetalii.swift in Sources */,
 				AD9EB5A2288ABA4F002229A6 /* Echipa.swift in Sources */,
 				AD9EB5A6288ABB0C002229A6 /* Data Service.swift in Sources */,
+				AD8FFD522890762E00E56758 /* EchipeFeatured.swift in Sources */,
 				AD9EB5AA288C0CD3002229A6 /* EchipeTabView.swift in Sources */,
 				AD9EB5A4288ABACB002229A6 /* EchipaModel.swift in Sources */,
 			);
