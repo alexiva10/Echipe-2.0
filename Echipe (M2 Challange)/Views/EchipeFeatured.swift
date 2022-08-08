@@ -47,7 +47,7 @@ struct EchipeFeatured: View {
             VStack(alignment: .leading, spacing: 10) {
                 Text("Details")
                 
-            }.padding(.leading, .trailing)
+            }.padding(.leading).padding(.trailing)
         }
     }
 }
