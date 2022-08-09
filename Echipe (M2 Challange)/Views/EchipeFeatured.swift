@@ -15,7 +15,7 @@ struct EchipeFeatured: View {
         
         VStack(alignment: .leading, spacing: 0) {
             
-            Text("Best team").padding(.leading).padding(.top, 40).font(.largeTitle)
+            Text("Best team").bold().padding(.leading).padding(.top, 40).font(.largeTitle)
             
             GeometryReader { geo in
                 
