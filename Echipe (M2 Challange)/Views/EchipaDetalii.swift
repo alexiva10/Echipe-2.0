@@ -11,6 +11,8 @@ struct EchipaDetalii: View {
     
     var echipa: Echipa
     
+    @State var selectedIstorie = 0
+    
     var body: some View {
         
         ScrollView {
@@ -26,9 +28,26 @@ struct EchipaDetalii: View {
                     }
                 }.padding(.horizontal)
                 Spacer()
-                ForEach (echipa.istorie) { i in
-                    Text(i.titlu)
-                }
+                VStack (alignment: .center) {
+                    Text("Alege perioada istorica: ")
+                        .font(.headline)
+                        .fontWeight(.bold)
+                        
+                    Picker("", selection: $selectedIstorie){
+                        ForEach (0..<echipa.istorie.count) { i in
+                            Text(echipa.istorie[i].titlu).tag(i)
+                        }
+                    }
+                    ForEach(echipa.istorie) { i in
+                        //Text($selectedIstorie.i.descriere)
+                        if(i.titlu == echipa.istorie[selectedIstorie].titlu) {
+                            Text(i.descriere).padding()
+                        }
+                        
+                    }
+                }.padding()
+                
+                
                 Spacer()                
             }
         }.navigationTitle(echipa.name)

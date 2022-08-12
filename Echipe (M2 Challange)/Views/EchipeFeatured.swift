@@ -32,7 +32,7 @@ struct EchipeFeatured: View {
                                     Image("Real Madrid").resizable().aspectRatio( contentMode: .fill).clipped()
                                     Text("Kings").padding(5)
                                 }
-                            }.frame(width: geo.size.width - 50, height: geo.size.height - 200, alignment: .center)
+                            }.frame(width: geo.size.width - 100, height: geo.size.height - 300, alignment: .center)
                                 .cornerRadius(15)
                                 .shadow(radius: 10)
                                 .shadow(color: .black, radius: 10, x: -5, y: 5)
