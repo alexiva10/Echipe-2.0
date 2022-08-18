@@ -62,7 +62,7 @@ struct EchipeFeatured: View {
                 Text(model.echipe[tabSelectionIndex].trofeeUCL)
                 
                 Text("Cei mai buni jucatori: ").font(.headline)
-                Text(model.echipe[0].jucatoriTop)
+                Text(model.echipe[tabSelectionIndex].jucatoriTop)
                 
             }.padding(.leading).padding(.trailing)
         }

@@ -101,5 +101,45 @@
                "descriere":"1886 - Dial Square; 1886 - Royal Arsenal; 1893 - Woolwich Arsenal; 1914 - The Arsenal; 1919 - Arsenal"
             }
          ]
-      }
-   ]
+      },
+   {
+      "name":"Dinamo Bucuresti",
+      "image":"Dinamo Bucuresti",
+      "trofeeUCL":0,
+      "jucatoriTop":[
+         "Haldan",
+         "Chirita",
+         "Danciulescu"
+      ],
+      "istorie":[
+         {
+            "titlu":"1",
+            "descriere":" "
+         },
+         {
+            "titlu":"2",
+            "descriere":""
+         }
+                ]
+   },
+   {
+      "name":"FC Bizonii",
+      "image":"FC Bizonii",
+      "trofeeUCL":0,
+      "jucatoriTop":[
+         "Ivanescu",
+         "Staicu",
+         "State"
+      ],
+      "istorie":[
+         {
+            "titlu":"Inceputurie - clasa a 10-a ",
+            "descriere":" "
+         },
+         {
+            "titlu":"Perioada de glorie - finalisti si castigatori",
+            "descriere":" "
+         }
+                ]
+   }
+]
