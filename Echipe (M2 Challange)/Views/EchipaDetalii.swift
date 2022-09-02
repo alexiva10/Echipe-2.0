@@ -34,7 +34,7 @@ struct EchipaDetalii: View {
                         .fontWeight(.bold)
                         
                     Picker("", selection: $selectedIstorie){
-                        ForEach (0..<echipa.istorie.count) { i in
+                        ForEach (0..<echipa.istorie.count, id: \.self) { i in
                             Text(echipa.istorie[i].titlu).tag(i)
                         }
                     }

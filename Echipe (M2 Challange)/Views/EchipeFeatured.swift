@@ -59,10 +59,13 @@ struct EchipeFeatured: View {
             
             VStack(alignment: .leading, spacing: 10) {
                 Text("Numar trofee UCL: ").font(.headline)
-                Text(model.echipe[tabSelectionIndex].trofeeUCL)
+                Text(String(model.echipe[tabSelectionIndex].trofeeUCL))
+
                 
                 Text("Cei mai buni jucatori: ").font(.headline)
-                Text(model.echipe[tabSelectionIndex].jucatoriTop)
+                ForEach(0..<model.echipe[tabSelectionIndex].jucatoriTop.count, id: \.self) { jucator in
+                    Text(model.echipe[tabSelectionIndex].jucatoriTop[jucator])
+                }
                 
             }.padding(.leading).padding(.trailing)
         }
